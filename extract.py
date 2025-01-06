@@ -49,7 +49,6 @@ def extract_from_jsonl(path, folder_name='extracted'):
             json.dump(arc_dict, output_file.open('w'), indent=2)
 
 # %%
-# path = "/Users/abhishekaggarwal/backed_up/BARCTasks/data_raw/100k-gpt4omini-description-gpt4omini-code_generated_problems/100k_gpt4o-mini_generated_problems.jsonl"
-path = '/Users/abhishekaggarwal/backed_up/BARCTasks/data_raw/100k-gpt4-description-gpt4omini-code_generated_problems/100k-gpt4-description-gpt4omini-code_generated_problems.jsonl'
-extract_from_jsonl(path)
+path = "/Users/abhishekaggarwal/backed_up/BARCTasksOnly/data/100k_gpt4o-mini_generated_problems.jsonl"
+extract_from_jsonl(path, folder_name='100k_gpt4o-mini_generated_problems')
 # %%
